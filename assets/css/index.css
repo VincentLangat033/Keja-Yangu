@@ -108,8 +108,8 @@ body{
             
         }
         .available{
-            color: white;
-            background-color: red;
+            color: rgb(5, 5, 5);
+            background-color: blue;
             height: 40px;
         }
         .house-two{
@@ -150,4 +150,7 @@ body{
             height: 40px;
             
 
+        }
+        .aline{
+            text-decoration: none;
         }
