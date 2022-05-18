@@ -47,3 +47,6 @@ button {
     display: flex;
     font-size: 16px;
 }
+p {
+    font-size: larger;
+}
