@@ -8,6 +8,7 @@ button {
     font-size: xx-large;
     margin-left: 500px;
     margin-top: 110px;
+    cursor: pointer;
 
 }
 .grid-container {
@@ -18,8 +19,5 @@ button {
   }
   body {
       background-color: #E5E5E5;
-  }
-  .grid-container input {
-      margin-right: 300px;
   }
   
