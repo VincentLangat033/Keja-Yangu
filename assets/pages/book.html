@@ -4,32 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking Page</title>
-    <link rel="stylesheet" href="/Keja-Yangu/assets/css/book.css">
-    <script src="/Keja-Yangu/assets/js/book.js"></script>
+    <title>Registration form creation</title>
+    <link rel="stylesheet" href="/assets/css/book.css">
 </head>
 <body>
-    <h1>Personal Information</h1>
-
-<div class="grid-container">
-    <div> Full Names</div>
-    <div> <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-
+    <h1>Registration form</h1>
+    <div class="register">
+        <form  method="post" id="register" action="">
+            <h2>Register</h2>
+            <label>First Name</label> <br>
+            <input type="text" name="Fname"  id="name" 
+            placeholder="Enter Your First Name" required> <br> <br>
+            <label>Last Name</label> <br>
+            <input type="text" name="lname"  id="name" 
+            placeholder="Enter Your Last Name" required> <br> <br>
+            <label>Id Number</label> <br>
+            <input type="text" name="id"  id="id" 
+            placeholder="Enter Your Id Number" required> <br> <br>
+            <label>Mobile Number</label> <br>
+            <select name="" id="ph">
+                <option>+435</option>
+                <option>+254</option>
+                <option>+429</option>
+                <option>+385</option>
+                <option>+279</option>
+            </select>
+            <input type="number" name="MNumber"  id="number" 
+            placeholder="Enter Your Mobile Number" required> <br> <br>
+            <label>Email</label> <br>
+            <input type="email" name="email"  id="name" 
+            placeholder="Enter Your Email" required> <br> <br>
+            <label>Password</label> <br>
+            <input type="password" name="pass"  id="name" 
+            placeholder="Enter Your Password" required> <br> <br>
+            <label>Re Enter Password</label> <br>
+            <input type="password" name="pass"  id="name" 
+            placeholder="Enter Your Password" required> <br> <br>
+            <input type="radio" name="male" id="male"> <span 
+            id="male">&nbsp; Male</span>&nbsp;&nbsp;
+            <input type="radio" name="male" id="male"> <span 
+            id="male">&nbsp; Female</span>&nbsp;&nbsp;
+            <input type="radio" name="male" id="male"> <span 
+            id="male">&nbsp; others</span>&nbsp;&nbsp; <br> <br>
+            <input type="Submit" value="Submit" id="sub" >
+        </form>
     </div>
-    <div>Phone  No</div>  
-    <div>
-        <input type="text" placeholder="Phone No">
-    </div>
-    <div>Email</div>
-    <div>
-        <input type="text" placeholder="Email">
-    </div>
-    <div>Date of arrival</div>
-    <div>
-        <input type="text" placeholder="Date of arrival">
-    </div>
-  </div>
-    <button type="button" onclick="saveUserData()"> Proceed </button>
+    
 </body>
 </html>
