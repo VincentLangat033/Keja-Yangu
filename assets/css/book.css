@@ -1,25 +1,32 @@
-<<<<<<< HEAD
-=======
-.input-field {
-    font-size: x-large;
-    margin-top: 50px;
-}
-button {
-    background-color: #f7441b;
-    color: #ffffff;
-    font-size: xx-large;
-    margin-left: 500px;
-    margin-top: 110px;
-    cursor: pointer;
->>>>>>> 64371379a05fd57f1feab5db1d4cb6609db52446
 
   label {
       font-size: xx-large;
   }
-  body {
-      background-color: #E5E5E5;
+  
+  
+
+  h1{
+      align-items: center;
+      text-decoration: underline;
+      padding-left: 40%;
   }
-  body {
-      background-color: #E5E5E5;
+
+  .flex-child{
+      background-color: turquoise;
+      font-size: medium;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      align-items: center;
+      display: flex;
+      margin-left: 70px;
+      margin-right: 70px;
+      margin-top: 35px ;
   }
+
+button {
+    font-size: xx-large;
+    margin-left: 350px;
+}
+.btn {
+    cursor: pointer;
+}
   
