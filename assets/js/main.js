@@ -1,6 +1,8 @@
 const people = [{
     userName: "admin@nyumbayetu.com",
     password: "adminNyumba",
+    
+
 }, ];
 var user = {};
 
@@ -41,7 +43,7 @@ login.addEventListener('click', function () {
     for (var i = 0; i < people.length; i++) {
         if (people[i].userName == emailValidate && people[i].password == passwordValidate) {
             alert("Login Successful");
-            window.location.href = "../../index.html";
+            window.open("book.html")
         }
         else {
             emailField.style.borderColor = "red";
