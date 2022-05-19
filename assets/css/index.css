@@ -1,0 +1,180 @@
+body{
+    font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .header{
+    height: 40px;
+    padding-top: 1.0em;
+    background-color: blue;
+  }
+    
+    .intro{
+        float: left;
+        margin-left: 25px;
+        /* padding-top: 20px; */
+        
+    }
+    .intro2{
+        float: left;
+        margin-top: 30px;
+    }
+    .nav-one{
+        float: right;
+    }
+    .nav-two{
+        margin: 0%;
+        list-style: none;
+    }
+    .liOne{
+        display: inline-block;
+        margin-left: 25px;
+        padding-top: 10px;
+    }
+    .frameOne{
+        display: flex;
+        
+    }
+    .part-one{
+        display: flex;
+        height: 340px;
+        
+    }
+    .sub-one{
+        width:50%;
+    }
+    .imageClass{
+        width: 50%;
+        padding-top: 1.5em;
+        /* padding-right: 2.0em; */
+    }
+    .dropDown{
+        height: 50px;
+        background-color: rgb(26, 54, 175);
+    }
+    .myForm{
+        height: 80px;
+        padding-left: 2.0em;
+        background-color: #EBE1E1;
+        width: 50%;
+    }
+    .inForm{
+        margin-top: 5px;
+        height: 40px;
+    }
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      .sub-one{
+          margin-top: 20px;
+      }
+
+
+
+
+    .column {
+        float: left;
+        width: 30%;
+        padding: 5px;
+        
+      }
+      
+     
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      } 
+      .aboutUs{
+          margin-top: -10px;
+          height: 60px;
+      }
+      .line1{
+        width: 1280px;
+        height: 67px;
+        border-bottom: 1px solid rgb(23, 66, 207);
+        position: absolute;
+        }
+        .about-me{
+            padding-top: 3.0em;
+            height: 100px;
+        }
+        .help-list2{
+            list-style: none;
+        }
+        .help-list{
+            list-style: none;
+        }
+        .supportus{
+            display: flex;
+            margin: 20px;
+            background-color: #F5EBEB;
+            
+        }
+       
+        .footer{
+            background-color: #1889DB;
+            height: 30px;
+            padding-left: 14.0em;
+        }
+        .house-one{
+            background-color: #F4ECEC;
+            margin-bottom: 10px;
+        }
+        .house-centered{
+            margin-left: 40px;
+            
+        }
+        .available{
+            color: rgb(5, 5, 5);
+            background-color: blue;
+            height: 40px;
+        }
+        .house-two{
+            background-color: #F4ECEC;
+            /* margin-bottom: 10px; */
+        }
+        .house-three{
+            background-color: #F4ECEC;
+            /* margin-bottom: 10px; */
+
+        }
+        .house-four{
+            background-color: #F4ECEC;
+            margin-bottom: 10px;
+
+
+        }
+        .house-five{
+            background-color: #F4ECEC;
+            margin-bottom: 10px;
+
+
+        }
+        .house-six{
+            background-color: #F4ECEC;
+            margin-bottom: 10px;
+            
+        }
+        .enquire{
+            color: white;
+            background-color: red;
+            height: 40px;
+            float: right;
+           margin-right: 200px;
+           margin-top: 10px;
+           width: 150px;
+           height: 60px;
+           font-size: larger;
+
+        }
+        .enquire1{
+            color: white;
+            background-color: red;
+            height: 40px;
+            
+
+        }
+        .aline{
+            text-decoration: none;
+        }
