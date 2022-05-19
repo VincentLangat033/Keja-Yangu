@@ -1,19 +1,10 @@
-.input-field {
-    font-size: x-large;
-    margin-top: 50px;
-}
-button {
-    background-color: #f7441b;
-    color: #ffffff;
-    font-size: xx-large;
-    margin-left: 500px;
-    margin-top: 110px;
+*{
+    margin: 0px;
+    padding: 0px;
 
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    font-size: xx-large;
-    font-style: normal;
-  }
-  
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
