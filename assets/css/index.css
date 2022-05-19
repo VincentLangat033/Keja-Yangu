@@ -44,12 +44,30 @@ body{
     }
     .imageClass{
         width: 50%;
-        padding-right: 2.0em;
+        padding-top: 1.5em;
+        /* padding-right: 2.0em; */
     }
     .dropDown{
         height: 50px;
         background-color: rgb(26, 54, 175);
     }
+    .myForm{
+        height: 80px;
+        padding-left: 2.0em;
+        background-color: #EBE1E1;
+        width: 50%;
+    }
+    .inForm{
+        margin-top: 5px;
+        height: 40px;
+    }
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      .sub-one{
+          margin-top: 20px;
+      }
 
 
 
@@ -114,11 +132,11 @@ body{
         }
         .house-two{
             background-color: #F4ECEC;
-            margin-bottom: 10px;
+            /* margin-bottom: 10px; */
         }
         .house-three{
             background-color: #F4ECEC;
-            margin-bottom: 10px;
+            /* margin-bottom: 10px; */
 
         }
         .house-four{
@@ -142,6 +160,12 @@ body{
             color: white;
             background-color: red;
             height: 40px;
+            float: right;
+           margin-right: 200px;
+           margin-top: 10px;
+           width: 150px;
+           height: 60px;
+           font-size: larger;
 
         }
         .enquire1{
