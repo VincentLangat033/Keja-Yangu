@@ -1,30 +1,8 @@
-.input-field {
-    font-size: x-large;
-    margin-top: 50px;
-}
-button {
-    background-color: #f7441b;
-    color: #ffffff;
-    font-size: xx-large;
-    margin-left: 500px;
-    margin-top: 110px;
-<<<<<<< HEAD
-    cursor: pointer;
 
-}
   label {
       font-size: xx-large;
   }
   body {
       background-color: #E5E5E5;
-=======
-
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    font-size: xx-large;
-    font-style: normal;
->>>>>>> 9c013b00ad138883467c9c0404c7199652992118
   }
   
