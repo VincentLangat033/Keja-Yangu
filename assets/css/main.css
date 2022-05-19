@@ -101,7 +101,7 @@ body{
 }
 
 .register .login .inputs .input:hover::placeholder{
-    color: sky;
+    color: black;
 }
 .register .login .inputs .input:hover,
 .register .login .inputs .input:active,
