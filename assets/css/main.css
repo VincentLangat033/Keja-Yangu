@@ -21,10 +21,10 @@ body{
 .register .signUp, .register .login{
     display: flex;
     flex-direction: column;
-    margin: 1em 0em;
+    margin: 2em 1em;
     padding: 1em;
-    width: 50%;
-    height: 78vh;
+    width: 42%;
+    height: 50vh;
 }
 
 
