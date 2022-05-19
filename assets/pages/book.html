@@ -5,33 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking Page</title>
-    <link rel="stylesheet" href="/Keja-Yangu/assets/css/book.css">
+    <link rel="stylesheet" href="/assets/css/book.css">
    
 </head>
 <body>
     <h1>Personal Information</h1>
-
-<div class="grid-container">
-    <div> Full Names</div>
-    <div> <input type="text" id="input" placeholder="First Name">
-        <input type="text" id="input" placeholder="Last Name">
-
-    </div>
-    <div>Phone  No</div>  
-    <div>
-        <input type="text" id="input" placeholder="Phone No">
-    </div>
-    <div>Email</div>
-    <div>
-        <input type="text" id="input" placeholder="Email">
-    </div>
-    <div>Date of arrival</div>
-    <div>
-        <input type="date" id="input" placeholder="Date of arrival">
-    </div>
-  </div>
-    <button id="btn" onclick="SaveData()"> Proceed </button>
-    <script src="/Keja-Yangu/assets/js/book.js"></script>
-    
+    <form action="/Keja-Yangu/assets/pages/Submit.html">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="Pnumber">Phone Number:</label>
+        <input type="text" id="pnumber" name="pnumber" required><br><br>
+        <label for="Email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="date">Arrival Date</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <input type="submit" value="submit" onclick="saveData()">
+    </form>
 </body>
 </html>
