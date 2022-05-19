@@ -21,10 +21,11 @@ body{
 .register .signUp, .register .login{
     display: flex;
     flex-direction: column;
-    margin: 1em 0em;
+    margin: 2em 1em;
     padding: 1em;
-    width: 50%;
-    height: 78vh;
+    width: 43%;
+    height: 51vh;
+    border-radius: 30px;
 }
 
 
@@ -101,7 +102,7 @@ body{
 }
 
 .register .login .inputs .input:hover::placeholder{
-    color: sky;
+    color: black;
 }
 .register .login .inputs .input:hover,
 .register .login .inputs .input:active,
