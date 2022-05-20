@@ -129,6 +129,7 @@ body{
             color: rgb(5, 5, 5);
             background-color: blue;
             height: 40px;
+            border-radius: 12px;
         }
         .house-two{
             background-color: #F4ECEC;
@@ -166,12 +167,14 @@ body{
            width: 150px;
            height: 60px;
            font-size: larger;
+           border-radius: 12px;
 
         }
         .enquire1{
             color: white;
             background-color: red;
             height: 40px;
+            border-radius: 12px;
             
 
         }
