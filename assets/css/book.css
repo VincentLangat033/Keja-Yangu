@@ -36,7 +36,7 @@ label{
 }
 
 body{
-    background-image: url(/assets/images/back1.jpg);
+    background-image: url(../images/back1.jpg);
     background-size: 100% 700px;
     background-repeat: no-repeat;
 }
